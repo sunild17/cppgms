@@ -6,7 +6,7 @@ int main() {
     *(ptr + 1) = *(ptr + 1) + 5;
     ptr++; 
     *ptr = *(ptr - 1) + 5;
-    std::cout << arr[0] << " " << arr[1] << " " << arr[2];
+    std::cout << arr[0] << " " << arr[1] << " " << arr[2] << "\n";
 									             
     return 0;
 }
